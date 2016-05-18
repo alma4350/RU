@@ -1,0 +1,173 @@
+ a {
+     text-decoration:none;
+     color:white;
+ }
+.Block1 {
+    text-align:center;
+}
+.Block1 > * {
+    display:inline-block;
+    vertical-align:top;
+    margin:20px;
+}
+.Block2 {
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.LI1 {
+    padding: 0px;
+    font-size:0;
+}
+.LI1 li {
+    font-size:16px;
+    display:inline;
+}
+.Button1{
+    vertical-align:middle;
+    display:inline-block;
+    color:white;
+    width:150px;
+    height:50px;
+    background:red;
+    border-radius:5px;
+    text-align:center;
+    padding-top:30px;
+    text-decoration:none;
+    
+}
+.Button2{
+    vertical-align:middle;
+    display:inline-block;
+    color:white;
+    width:100px;
+    height:40px;
+    background:red;
+    border-radius:5px;
+    text-align:center;
+    padding-top:20px;
+    text-decoration:none;
+    
+}
+.Button3{
+    vertical-align:middle;
+    display:inline-block;
+    color:white;
+    width:50px;
+    height:30px;
+    background:red;
+    border-radius:5px;
+    text-align:center;
+    padding-top:10px;
+    text-decoration:none;
+    
+}
+.Button4{
+    vertical-align:middle;
+    display:inline-block;
+    color:white;
+    width:150px;
+    padding:10px 0px;
+    background:red;
+    border-radius:5px;
+    text-align:center;
+    text-decoration:none;
+}
+
+ul {
+list-style-type:none;  
+text-decoration:none;
+}
+
+.Navmenu ul {
+    float:left;
+    text-decoration:none;
+    list-style:none;
+    text-align:center;
+    color:white;
+}
+    
+.Navmenu li {
+font-family:sans-serif;
+line-height:20px;
+width:100px;
+height:40px;
+display:inline-block;
+background-color:red;
+vertical-align:middle;
+text-align:center;
+padding-top:15px;
+margin-right:-11px;
+border-radius:5px;
+}
+
+.Navmenu li a:hover {
+    background-color: #ddd;}
+    
+ .Pagination {
+        display:inline-block;
+        padding:0;
+        margin:0;
+}
+    .Pagination li {
+        display:inline;
+}
+    .Pagination li a {
+        color:Black;
+        float:left;
+        text-decoration:none;
+        padding:8px 20px;
+        border-radius:5px;
+        margin-right:-7px;
+        
+ }
+    .Pagination li a:hover:not(.active){
+        background-color: #ddd;}
+    
+    .Timestyle time {
+        color:#ddd;
+        
+    }
+  .PicStyle {
+        float:left;
+        clear:left;
+    }
+    .Textstyle {
+        overflow:hidden;
+        white-space:nowrap;
+        
+    }
+    .Comment{
+        clear:both;
+        height:64px;
+    }
+    
+   .tablist{
+	list-style-type: none;
+	display: relative;
+}
+
+.tab{
+	display: inline-block;
+	border: 1px solid gray;
+	border-radius: 5px 5px 0px 0px;
+	padding: 5px;
+}
+
+.tab a{
+	color: blue;
+}
+
+.content{
+	position: relative;
+	top: -1px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.tab-selected{
+	position: relative;
+	border-bottom-color: white;
+	z-index: 10;
+}
+

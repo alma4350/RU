@@ -1,0 +1,64 @@
+
+.Underline td {
+   border-bottom: 2px solid #d3d3d3;
+   width:150px;
+}
+.Spacing td{
+ width:150px;
+ padding:15px;
+}
+.Headspace th {
+    border-bottom: 2px solid #d3d3d3;
+    padding: 15px;
+}
+.UnderOver {
+    Border-bottom: 2px solid #d3d3d3;
+    Border-top: 2px solid #d3d3d3;
+    text-align: center;
+}
+.Bold {
+    font-size: 30px;
+    padding: 10px;
+}
+.Small {
+    color:#d3d3d3;
+    font-size:10px;
+}
+.Bar div {
+    background-color:#1569c7;
+}
+.Extend {
+    width:100%;
+    padding-left: 20px;
+}
+.BarLabel {
+    text-align: right;
+    width: 20%;
+}
+/*.Graybox  {
+    background-color:Gray;
+    position: fixed;
+    top:1px;
+    bottom:1px;
+    left:1px;
+    right:1px;
+}
+.Whitebox  {
+    background-color: #FFF;
+    border-radius: 20px;
+    margin:10%;
+    padding:10%;
+    max-width: 90%;
+   max-height: 80%;
+}
+
+.Closebutton  {
+    color:black;
+    background-color:rgb(215,27,57);
+    float:right;
+    height:30px;
+    width:80px;
+    text-align:center;
+    padding:5px;
+    
+}*/
